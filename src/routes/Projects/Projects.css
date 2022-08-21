@@ -1,0 +1,48 @@
+.projectMainDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .projectCard {
+    width: 575px;
+    min-height: 100px;
+    border: solid 1mm white;
+    border-radius: 10px;
+    margin-top: 5%;
+  }
+  
+  .projectDesc {
+    padding: 3%;
+  }
+  .projectImg {
+    object-fit: contain;
+    height: 250px;
+    width: 80%;
+  }
+  
+  .githubLink {
+    height: 25px;
+    width: 25px;
+  }
+  .githubButton {
+    background-color: white;
+  }
+  .deployButtons {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+  .techstackTitle {
+    text-align: left;
+    padding-left: 10px;
+    font-style: italic;
+  }
+  .btnGroup {
+    display: flex;
+    flex-direction: column;
+  }
